@@ -1,4 +1,4 @@
-## < TITAN: Sparsity Regularization for Tabular Learning with Uninformative Features >
+## TITAN: Sparsity Regularization for Tabular Learning with Uninformative Features
 
 A primary goal of tabular deep learning is to streamline and automate data science.  In contrast, industrial tabular data workflows rely on data scientists hand engineering or selecting useful features for a prediction task and training their model only on these carefully curated features.  In this work, we develop a simple and easy-to-use sparsity regularizer, TITAN, which automates this process by encouraging tabular neural networks to ignore uninformative input features and to instead attend only to useful ones.  We demonstrate on seven datasets that TITAN yields significant performance boosts in the presence of noisy features, and we visualize its effects on decision boundaries.  We release a PyTorch implementation of TITAN which practitioners can readily drop into their own training scripts.
 
